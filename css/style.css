@@ -9,7 +9,7 @@
     margin-right: auto;
 }
 .SHOPNO{
-    /* margin: 62px 192px; */
+    margin: 62px 0px;
     width: 111px;
     height: 46px;
 }
@@ -35,10 +35,7 @@
     background-color: rgba(118, 244, 234, 0.5);
     color: #505050;
 }
-.inscription1{
-    text-align:  center;
-    
-}
+
 .button1{
     font-size: 17,53px;
     width: 227px;
@@ -86,21 +83,96 @@ height: 960px;
     line-height: 27.27px;
     text-transform: uppercase;
     text-align:  center;
-    margin: 10px 0px 0px;
+    margin: 12px 0px 117px;
+    
 }
 .main{
     width: 1438px;
     height: 960px;
 }
 .main2{
-    margin: 142px 0px;
+    margin: 0px 0px;
     width: 1438px;
-height: 960px;
+}
+
+.karusel{
+    margin: 0px 90px 100p;  
+}
+.kartinki{
+    margin: 0px -123px;
+}
+.fatty{
+    width: 396px;
+    height: 29px;
+    opacity: 0.75;
+    color: #000000;
+    font-family: Merriweather;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+}
+.fatt1{
+    /* Style for "A visual a" */
+     width: 462px;
+     height: 208px;
+     opacity: 0.74;
+     color: #000000;
+     font-family: Raleway;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 27.27px;
+     /* Text style for "A,  visual" */
+     letter-spacing: 0.8px; 
+     text-align: justify;
+ }
+
+.marg13{
+    width: 379px;
+    height: 366px;
+    
+}
+.zalivka{
+    width: 1438px;
+    height: 900px;
+    background-color: #f9fbfb
+}
+
+.kar2{
+    background-color:rgb(245, 209, 165);
+}
+.kar1{
+    background-color:rgb(241, 177, 98);
+}
+.qwe{
+    background-color:fuchsia;
+}
+.zalivka{
+    background-color:#f9fbfb;
+}
+.karusel4{
+    background-color: #eaebed;
+}
+.body{
+    font-size: white;
+}
+
+.fon{
+    background-color:white;
+}
+.podval{
+    background-color:#262b2e;
+    color:white;
 }
 
 
-/* 
 
+
+
+
+
+/* 
 #slider { /*положение слайдера*/
     position: relative;
 	text-align: center;
@@ -248,74 +320,3 @@ label, a{ /*при наведении на стрелки или переклю�
 #controls label{ /*прозрачность стрелок при отводе курсора*/
 	transition: opacity 0.2s ease-out;
 } */
-
-
-
-.kartinki{
-    margin: 0px -140px;
-}
-.fatty{
-    width: 396px;
-    height: 29px;
-    opacity: 0.75;
-    color: #000000;
-    font-family: Merriweather;
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 50px;
-    text-transform: uppercase;
-    letter-spacing: 0.2px;
-}
-.fatt1{
-   /* Style for "A visual a" */
-    width: 462px;
-    height: 208px;
-    opacity: 0.74;
-    color: #000000;
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 27.27px;
-    /* Text style for "A,  visual" */
-    letter-spacing: 0.8px; 
-    text-align: justify;
-}
-.marg117{
-    margin: 12px 0px 117px;
-}
-.marg13{
-    width: 379px;
-    height: 366px;
-    
-}
-.zalivka{
-    width: 1438px;
-    height: 900px;
-    background-color: #f9fbfb
-}
-.kar2{
-    background-color:rgb(245, 209, 165);
-}
-.kar1{
-    background-color:rgb(241, 177, 98);
-}
-.qwe{
-    background-color:fuchsia;
-}
-.zalivka{
-    background-color:#f9fbfb;
-}
-.karusel4{
-    background-color: #eaebed;
-}
-.body{
-    font-size: white;
-}
-
-.fon{
-    background-color:white;
-}
-.podval{
-    background-color:#262b2e;
-    color:white;
-}
