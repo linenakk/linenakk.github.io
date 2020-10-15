@@ -20,8 +20,23 @@
       <div class="row">
           <div class="col-6 top"><img class="SHOPNO" src="img/2-layers.png"></div>
         <div class="col-6 top menu-span">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="21" viewBox="0 0 30 21"><g><g opacity=".6"><path d="M2.265 16.472h26.298c.807 0 1.461.654 1.461 1.46v.975c0 .806-.654 1.46-1.461 1.46H2.265a1.461 1.461 0 0 1-1.461-1.46v-.974c0-.807.654-1.461 1.46-1.461z"/></g><g opacity=".6"><path d="M2.265 8.68h26.298c.807 0 1.461.655 1.461 1.461v.974c0 .807-.654 1.461-1.461 1.461H2.265a1.461 1.461 0 0 1-1.461-1.461v-.974c0-.806.654-1.46 1.46-1.46z"/></g><g opacity=".6"><path d="M2.265-.085h26.298c.807 0 1.461.654 1.461 1.461v.974c0 .806-.654 1.46-1.461 1.46H2.265A1.461 1.461 0 0 1 .804 2.35v-.974c0-.807.654-1.46 1.46-1.46z"/></g></g></svg>
+          <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="21" viewBox="0 0 30 21"><g><g opacity=".6"><path d="M2.265 16.472h26.298c.807 0 1.461.654 1.461 1.46v.975c0 .806-.654 1.46-1.461 1.46H2.265a1.461 1.461 0 0 1-1.461-1.46v-.974c0-.807.654-1.461 1.46-1.461z"/> </g><g opacity=".6"><path d="M2.265 8.68h26.298c.807 0 1.461.655 1.461 1.461v.974c0 .807-.654 1.461-1.461 1.461H2.265a1.461 1.461 0 0 1-1.461-1.461v-.974c0-.806.654-1.46 1.46-1.46z"/></g><g opacity=".6"><path d="M2.265-.085h26.298c.807 0 1.461.654 1.461 1.461v.974c0 .806-.654 1.46-1.461 1.46H2.265A1.461 1.461 0 0 1 .804 2.35v-.974c0-.807.654-1.46 1.46-1.46z"/></g></g></svg>
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li class="dr-men"><a href="#Cont">Contact Us</a></li>
+              <li class="dr-men"><a href="#ABOUT">ABOUT US</a></li>
+              <li class="dr-men"><a href="#featured">featured works</a></li>
+              <li class="dr-men"><a href="#small">small team</a></li>
+              <li class="dr-men"><a href="#what">what they says</a></li>
+              <li class="dr-men"><a href="#SEND">SEND MESSAGE</a></li>
+              </ul>
+          </div>
+          </div>
         </div>
+
       </div>
       <div class="row">
         <div class="col-12">
@@ -30,7 +45,7 @@
         </div>
       </div>
     <div class="row">
-      <div class="col-9"><button class="cntact-us"">Contact Us</button> </div>
+      <div class="col-9"><button class="cntact-us" id="Cont">Contact Us</button> </div>
       <div class="col-3"><img class="glass" src="img/GLASS.png"></div>
     </div>
   </div>
@@ -41,7 +56,7 @@
   <div class="container">
     <div class="container zxc">
       <div class="row first-block">
-        <div class="col-12 headingt">ABOUT US</div>
+        <div class="col-12 headingt" id="ABOUT">ABOUT US</div>
         <div class="col-12 secondary">Lorem ipsum dolor sit amet event landing template</div>
       </div>
 
@@ -92,7 +107,7 @@
         </div> 
     </div>
         <div class="row">
-          <div class="col-12 headingt">featured works</div>
+          <div class="col-12 headingt" id="featured">featured works</div>
           <div class="col-12 secondary">Lorem ipsum dolor sit amet event landing template</div>
         </div> 
         <div class="row">
@@ -105,7 +120,7 @@
         </div> 
 
         <div class="row">
-          <div class="col-12 headingt">small team</div>
+          <div class="col-12 headingt" id="small">small team</div>
           <div class="col-12 secondary">Lorem ipsum dolor sit amet event landing template</div>
         </div> 
         <div class="row">
@@ -121,7 +136,7 @@
   <div class="container-fluid square-excretion">
     <div class="container">
         <div class="row">
-          <div class="col-12 headingt">what they says</div>
+          <div class="col-12 headingt" id="what">what they says</div>
           <div class="col-12 secondary">Lorem ipsum dolor sit amet event landing template</div>
           <!--<div class="col-12"> -->
             <!-- <div class="">
@@ -280,34 +295,34 @@
         <div class="col-12"><img class="clients1" src="img/2_copy_2.png"></div>
       </div>
 
-
-
-      <div class="bloc_row">
+      <div class="bloc_row" id="SEND">
         <div class="bloc_coumn">
           <div class="items1">
-              <form action=""><div class="group">
+              <form action="#" >
+                <div class="group">
                       <label for="">Name*</label>
-                        <br lass="hr-gr">
                       <input type="text" class="inputwww">
                       <hr>
+                      <br>
                     </div>
                     <div class="group">
                       <label for="" class="group">Subject*</label>
-                      <br>
+                      
                       <input name="tel" type="tel" class="inputwww">
                       <hr>
+                      <br>
                     </div>
                     <div class="group">
                       <label for="">E-mail*</label>
-                      <br>
                       <input type="email" class="inputwww">
                       <hr>
+                      <br>
                     </div>
                     <div class="group">
                       <label for="">Massage*</label>
-                      <br>
                       <textarea name="comment" cols="40" rows="3" class="inputwww"></textarea></p>
                       <hr>
+                      <br>
                     </div>
                   <div class="">
                     <button class="gr-button">SEND MESSAGE</button>
@@ -323,11 +338,12 @@
                     <p class="p2">Adress line 2</p>
                     <p>Phone: +548 945645</p>
                     <p>Fax: +456456 54546</p>
+                    <br>
                     <p>Web: www.designagency.net</p>
-                    <p>E-mail:<a href="mailto:vlad@htmlbook.ru">info@designagency.net</a></p> 
+                    <p>E-mail:<a href="mailto:vlad@htmlbook.ru"> info@designagency.net</a></p> 
               </div>
                   <div class="map-style">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29787.05501972853!2d44.01528553388845!3d56.29641566641549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5f9ee033251%3A0x28d3c0cf849657aa!2z0J3QuNC20L3QuNC5INCd0L7QstCz0L7RgNC-0LQsINCd0LjQttC10LPQvtGA0L7QtNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1602425937502!5m2!1sru!2sru" width="443" height="218" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29787.05501972853!2d44.01528553388845!3d56.29641566641549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5f9ee033251%3A0x28d3c0cf849657aa!2z0J3QuNC20L3QuNC5INCd0L7QstCz0L7RgNC-0LQsINCd0LjQttC10LPQvtGA0L7QtNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1602425937502!5m2!1sru!2sru" width="443" height="217" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                   </div>
                 </div>
             </div>
@@ -336,67 +352,11 @@
 
 
 
-
-
-
-      <!-- <div class="row map-info">
-
-        <div class="col-6 registration">
-
-          <form action="">
-            <div class="group">
-              <label for="">Name*</label>
-                <br lass="hr-gr">
-              <input type="text" class="inputwww">
-              <hr>
-            </div>
-            <div class="group">
-              <label for="" class="group">Subject*</label>
-              <br>
-              <input name="tel" type="tel" class="inputwww">
-              <hr>
-            </div>
-            <div class="group">
-              <label for="">E-mail*</label>
-              <br>
-              <input type="email" class="inputwww">
-              <hr>
-            </div>
-            <div class="group">
-              <label for="">Massage*</label>
-              <br>
-              <textarea name="comment" cols="40" rows="3" class="inputwww"></textarea></p>
-              <hr>
-            </div>
-          <div class="">
-            <button class="gr-button">SEND MESSAGE</button>
-          </div>
-          </form>
-
-        </div>
-
-        <div class="col-6 address-okno">
-          <div class="address-style">
-            <p class="p1">Adress line 1</p>
-            <p class="p2">Adress line 2</p>
-            <p>Phone: +548 945645</p>
-            <p>Fax: +456456 54546</p>
-            <p>Web: www.designagency.net</p>
-            <p>E-mail:<a href="mailto:vlad@htmlbook.ru">info@designagency.net</a></p>
-          </div>
-
-          <div class="map-style">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29787.05501972853!2d44.01528553388845!3d56.29641566641549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5f9ee033251%3A0x28d3c0cf849657aa!2z0J3QuNC20L3QuNC5INCd0L7QstCz0L7RgNC-0LQsINCd0LjQttC10LPQvtGA0L7QtNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1602425937502!5m2!1sru!2sru" width="443" height="218" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div>
-
-        </div>
-      </div> -->
-
     </div>
   </div>
 
   <div class="container-fluid footer-fon">
-    <div class="row">
+    <div class="row sadsadasd:">
       <div class="col-12 Follow-us">FOLLOW US</div>
       <div class="parent"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
