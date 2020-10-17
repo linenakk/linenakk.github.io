@@ -130,7 +130,7 @@ margin: 147px 50px;
 margin: 13px 0px;
 }
 .square-excretion{
-    background-color: #eff0f2;
+    background-color: #f9fbfb;
     margin: 116px 0px;
     height: 900px;
 }
@@ -313,27 +313,34 @@ hr {
     margin: 90px 0px 15px;
 }
 .sadsadasd{
-justify-content: center;
+    justify-content: center;
 }
 .auf{
-    
-    box-shadow: 0 0 29px rgba(21, 21, 21, 0.12);
-    
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow:    0px 0px 8px 0px rgba(0, 0, 0, 0.28);
+    box-shadow:         0px 0px 8px 0px rgba(0, 0, 0, 0.28);
     border-radius: 3px;
-  }
+}
 #layer1, #layer2{
-    position: absolute; /* Относительное позиционирование */
+    position: absolute;
 } 
 #layer1{
     left: 18%;
+    top: 2%;
 }
 #layer2 {
-      top: 5%; /* Сдвигаем текст вверх */
-      left: 10%; /* Сдвигаем текст вправо */
-      box-shadow: 0 0 29px rgba(21, 21, 21, 0.12);
+    top: 8%;
+    left: 10%;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow:    0px 0px 4px 0px rgba(0, 0, 0, 0.32);
+    box-shadow:         0px 0px 4px 0px rgba(0, 0, 0, 0.32);
 }
-#layer1 { z-index: 2; }
-#layer2 { z-index: 1; }
+#layer1 { 
+    z-index: 2;
+}
+#layer2 { 
+    z-index: 1; 
+}
 .img-sld{
     justify-content: center;
 }
@@ -343,10 +350,11 @@ justify-content: center;
     border-radius: 3px;
     background-color: #eaebed;
     text-align: center;
-    }
-    .xxx2{
-        margin: 97px 0px 0px;
-        font-weight: bold;
+    
+}
+.xxx2{
+margin: 97px 0px 0px;
+font-weight: bold;
 opacity: 0.95;
 color: #000000;
 font-family: Merriweather;
@@ -357,15 +365,54 @@ letter-spacing: normal;
 line-height: 27.27px;
 text-align: center;
 text-transform: uppercase;
-    }
+}
+.xxx3{
+    padding: 30px;
+}
+.xxx4{
+    font-family: "Merriweather - Regular";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    line-height: normal;
+}
+.sw-sl{
+    margin: -46px 0px;
+}
+.switch-slider{
+    border-radius: 3px !important; /*скругление углов*/
+	display: inline-block !important; /*расположение в строку*/
+	width: 11px !important;
+	border-bottom: 0px solid transparent !important;
+    background: #bbb !important;
+}
+.switch-slider:hover{
+    background: #71f6eb !important;
+}
+.switch-slider.active{
+    background: #71f6eb !important;
+}
+.carousel-control-prev-icon {
+    background-image: url("../img/strelka-left.png") !important;
+}
+.carousel-control-prev-icon:hover {
+    background-image: url("../img/strelka-left-hover.png") !important;
+}
+.carousel-control-next-icon {
+    background-image: url("../img/strelka-rite.png") !important;
+}
+.carousel-control-next-icon:hover {
+    background-image: url("../img/strelka-rite-hover.png") !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 49px !important;
+    height: 49px !important;
+}
 
-    .xxx4{
-font-family: "Merriweather - Regular";
-font-weight: 400;
-font-style: normal;
-letter-spacing: 0.9px;
-line-height: normal;
-    }
+
+
+
+
 
 /* -------------------------Начало слайдера------------------- */
 
@@ -406,7 +453,6 @@ article img{ /*размер изображений слайдера*/
     max-width: 383px; /*максимальнная длинна*/
     
 }
-
 /*настройка переключения и положения для левой стрелки*/
 /*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
 #switch1:checked ~ #controls label:nth-child(5), 
@@ -437,6 +483,7 @@ article img{ /*размер изображений слайдера*/
     width: 68px;
     
 }
+
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
 	cursor: pointer;
