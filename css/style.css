@@ -18,24 +18,30 @@
 .top{
     margin: 61px 0px;
 }
-.menu-span{
-    display: float-right !important;
-    justify-content: right !important;
-    list-style-type: none;
+.dropri{
+    height: 30px;
+    margin:0px 440px;
+
 }
 .btn{
     background-color:#eff0f2;
     border: 0;
     padding: 0;
 }
+.dropdown-menu{
+    background-color:#d3f1f0;
+}
+.dr-men a{
+    color:#505050;
+}
 .dr-men{
     list-style-type: none;
     font-family: Raleway;
     font-size: 20px;
-    color:#505050;
+    font-weight: bold;
     text-transform: uppercase;
-    margin: 0px 0px 10px;
-    width: 250px;
+    margin: 23px -35px 22px;
+    width: 220px;
 }
 .main-text{
     text-align:  center;
@@ -195,9 +201,9 @@ margin: 13px 0px;
     text-transform: uppercase;
 }
 .parent{
-    display: flex;
-    justify-content: center;
     height: 100%;
+    padding: 3px;
+
 }
 .copyright{
     width: 334px;
@@ -215,6 +221,7 @@ margin: 13px 0px;
     font-style: normal;
     letter-spacing: 0.16px;
     line-height: normal;
+    margin: 36px;
 }
 .bloc_row{
     display:flex;
@@ -266,30 +273,6 @@ margin: 13px 0px;
     text-transform: uppercase;
     justify-content: center;
 }
-.employee-description{
-    margin: 140px auto 0px;
-    width: 510px;
-    height: 96px;
-    opacity: 0.7;
-    color: #000000;
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 26.3px;
-    text-align: center;
-    font-style: normal;
-    letter-spacing: 0.96px;
-    line-height: normal;
-}
-.carousel-control-prev-icon, .carousel-control-next{
-    width: 52px;
-    height: 53px;
-    box-shadow: 2px 6px 11px rgba(20, 20, 21, 0.1);
-    border-radius: 3px;
-    background-color: #71f6eb;
-}
 .group{
     opacity: 0.6;
     color: #eaebed;
@@ -329,10 +312,60 @@ hr {
 .Follow-us{
     margin: 90px 0px 15px;
 }
-.sadsadasd:before{
-    text-align: center;
+.sadsadasd{
+justify-content: center;
+}
+.auf{
+    
+    box-shadow: 0 0 29px rgba(21, 21, 21, 0.12);
+    
+    border-radius: 3px;
+  }
+#layer1, #layer2{
+    position: absolute; /* Относительное позиционирование */
+} 
+#layer1{
+    left: 18%;
+}
+#layer2 {
+      top: 5%; /* Сдвигаем текст вверх */
+      left: 10%; /* Сдвигаем текст вправо */
+      box-shadow: 0 0 29px rgba(21, 21, 21, 0.12);
+}
+#layer1 { z-index: 2; }
+#layer2 { z-index: 1; }
+.img-sld{
     justify-content: center;
 }
+.xxx{
+    width: 649px;
+    height: 420px;
+    border-radius: 3px;
+    background-color: #eaebed;
+    text-align: center;
+    }
+    .xxx2{
+        margin: 97px 0px 0px;
+        font-weight: bold;
+opacity: 0.95;
+color: #000000;
+font-family: Merriweather;
+font-size: 15px;
+font-weight: 400;
+font-style: italic;
+letter-spacing: normal;
+line-height: 27.27px;
+text-align: center;
+text-transform: uppercase;
+    }
+
+    .xxx4{
+font-family: "Merriweather - Regular";
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0.9px;
+line-height: normal;
+    }
 
 /* -------------------------Начало слайдера------------------- */
 
